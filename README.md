@@ -36,7 +36,7 @@ Therefore, total 461 student's grades from math and reading are not effective in
 
 the reading, math performance in percentage and average are slightly dropped compared to the old one in which Thomas High school data was complete. Withough any statistic test it is hard to tell the differences were significant or not.
 
-![Alt text](new_district_summary_df.png) 
+![Alt text](/Resources/new_district_summary_df.png) 
 ![Alt text](ols_district_summary_df.png)
 
 #### How is the school summary affected?
