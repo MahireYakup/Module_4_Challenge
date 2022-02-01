@@ -18,6 +18,7 @@ code: student_data_df.loc[((student_data_df["school_name"]=="Thomas High School"
 student_data_df.head(10)
 student_data_df.tail(10)
 
+
 After replaing NAN we checked the Thoams High School info : it is as below: <class 'pandas.core.frame.DataFrame'> Int64Index: 461 entries, 37537 to 39167 Data columns (total 7 columns): Column Non-Null Count Dtype
 
 0 Student ID 461 non-null int64
@@ -35,9 +36,15 @@ Therefore, total 461 student's grades from math and reading are not effective in
 
 the reading, math performance in percentage and average are slightly dropped compared to the old one in which Thomas High school data was complete. Withough any statistic test it is hard to tell the differences were significant or not.
 
+![Alt text](new_district_summary_df.png) 
+![Alt text](ols_district_summary_df.png)
+
 #### How is the school summary affected?
 
-There are huge differences of students performance in math and reading in terms of school. Since Thomas High school nine-grades data was removed from the whole analysis. This total number of the students did not change therefore when we calculated the average, all average score dropped becasue of lacking data for nine-grades..
+There are huge differences of students performance in math and reading in terms of school. Since Thomas High school nine-grades data was removed from the whole analysis. This total number of the students did not change therefore when we calculated the average, all average score dropped becasue of lacking data for nine-grades.
+
+![Alt text](new_per_school_summary.png)
+![Alt text](old_per_school_summary.png)
 
 #### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
@@ -52,13 +59,18 @@ Thomas high school, before the finding dishonesty, was one of the top High schoo
 
 There were no significant differences in terms of math grading among schools-anylisis with Thomas high nine grade and without it. However, in post analysis which is the analysis of without considering Thomas High nine-grades,only difference was Thomas High nine-grade as NAN for average math. (no grade is claculated) The statement is same for reading score, which means only Thomas High School nine-grade performances of math and reading as NAN.
 
+
 ##### Scores by school spending
 
 Replacing ninth_grade was only affacted on the spending range of per students on the range where Thomas high school involved.
 
+![Alt text](old_spending_summary.png)
+![Alt text](new_spending_rage.png)
+
 ##### Scores by school size
 
 Replacing ninth_grade was only affacted on the school_size where Thomas high school involved.Over all passing dropped from 90% to 85% in new data analysis.
+![Alt text](new_school_size.png)
 
 #### Scores by school type
 
