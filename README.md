@@ -36,15 +36,15 @@ Therefore, total 461 student's grades from math and reading are not effective in
 
 the reading, math performance in percentage and average are slightly dropped compared to the old one in which Thomas High school data was complete. Withough any statistic test it is hard to tell the differences were significant or not.
 
-![Alt text](new_district_summary_df.png) 
-![Alt text](ols_district_summary_df.png)
+![Alt text](/Resources/new_district_summary_df.png) 
+![Alt text](/Resources/ols_district_summary_df.png)
 
 #### How is the school summary affected?
 
 There are huge differences of students performance in math and reading in terms of school. Since Thomas High school nine-grades data was removed from the whole analysis. This total number of the students did not change therefore when we calculated the average, all average score dropped becasue of lacking data for nine-grades.
 
-![Alt text](new_per_school_summary.png)
-![Alt text](old_per_school_summary.png)
+![Alt text](/Resources/new_per_school_summary.png)
+![Alt text](/Resources/old_per_school_summary.png)
 
 #### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
@@ -64,13 +64,13 @@ There were no significant differences in terms of math grading among schools-any
 
 Replacing ninth_grade was only affacted on the spending range of per students on the range where Thomas high school involved.
 
-![Alt text](old_spending_summary.png)
-![Alt text](new_spending_rage.png)
+![Alt text](/Resources/old_spending_summary.png)
+![Alt text](/Resources/new_spending_rage.png)
 
 ##### Scores by school size
 
 Replacing ninth_grade was only affacted on the school_size where Thomas high school involved.Over all passing dropped from 90% to 85% in new data analysis.
-![Alt text](new_school_size.png)
+![Alt text](/Resources/new_school_size.png)
 
 #### Scores by school type
 
